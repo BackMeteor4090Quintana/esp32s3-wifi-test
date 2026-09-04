@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include <WiFi.h>
 
-const char* SSID = "PON_AQUI_TU_HOTSPOT";
-const char* PASS = "PON_AQUI_TU_PASSWORD";
+const char* SSID = "Totalplay-2.4G-4ef8";
+const char* PASS = "Jm7cbUXMQXPBFZA2";
 
 void setup() {
   Serial.begin(115200);
