@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "WifiTest.ino"
+      - "esp32s3-wifi-test.ino"
       - ".github/workflows/build.yml"
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
             --fqbn "esp32:esp32:esp32s3:CDCOnBoot=cdc,FlashSize=16M,PSRAM=opi" \
             --output-dir build \
             --export-binaries \
-            WifiTest.ino
+            esp32s3-wifi-test.ino
 
       - name: Listar binarios
         run: |
