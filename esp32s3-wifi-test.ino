@@ -1,7 +1,7 @@
 #include <WiFi.h>
 
-const char* WIFI_SSID = "PON_AQUI_TU_SSID";
-const char* WIFI_PASS = "PON_AQUI_TU_PASSWORD";
+const char* WIFI_SSID = "Totalplay-2.4G-4ef8";
+const char* WIFI_PASS = "Jm7cbUXMQXPBFZA2";
 
 void setup() {
   Serial.begin(115200);
